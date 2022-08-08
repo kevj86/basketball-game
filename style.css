@@ -1,0 +1,80 @@
+@font-face {
+  src: url(./CursedTimer.ttf);
+  font-family: Cursed;
+}
+
+.font-cursed {
+  font-family: "Cursed";
+}
+.font-verdana {
+  font-family: "Verdana";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b244a;
+  color: #eeeeee;
+}
+
+.home h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.guest h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#home-score,
+#guest-score {
+  width: 155px;
+  height: 120px;
+  background-color: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 90px;
+  color: #f94f6d;
+
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-point {
+  background: transparent;
+  border: 3px solid #9aabd8;
+  border-radius: 10px;
+  padding: 0.75rem;
+  color: #9aabd8;
+}
+
+.btn-new {
+  padding: 2rem;
+  margin: auto 0;
+
+  font-size: 2rem;
+}
+
+.btn-new:hover {
+  background: #9aabd8;
+  color: #1b244a;
+}
